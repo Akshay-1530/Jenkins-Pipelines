@@ -4,7 +4,7 @@ pipeline {
 stages {
 	stage ('Parallel'){
 		parallel {
-			stage	('Stage-01')
+			stage	('Stage-1')
 			{
 				steps{
 				echo "Welcome to Young Minds!"
